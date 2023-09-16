@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-16T07:36:37.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="acc7nfuzD0pa771suKMl" version="21.7.5" type="device">
+  <diagram name="Страница — 1" id="0Fx9avq30OtUONu_hp11">
+    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aw8q43girzHjkdlIusk5-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-5" value="Лого" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="aw8q43girzHjkdlIusk5-1">
+          <mxGeometry x="15" y="25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-2" value="Название компании" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-4" value="Навигация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-11" value="Корзина" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="530" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-22" value="Контент 2: Фирменные магазины" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aw8q43girzHjkdlIusk5-14">
+          <mxGeometry x="40" y="280" width="480" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-18" value="Сторонний контент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-19" value="Сторонний контент 2 (цитата)" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-21" value="Контент 1 : История" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-26" value="Фотогалерея" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8q43girzHjkdlIusk5-27" value="Соцсети, лицензия" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="680" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
