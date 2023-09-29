@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
     font-size: 30px;
     line-height: 36px;
     color: whitesmoke;
-    font-family: 'Stick', 'Bookman Old Style', sans-serif;
+    font-family:  'Bookman Old Style', sans-serif;
     font-style: italic;
 }
 
@@ -65,7 +65,8 @@ body::-webkit-scrollbar {
 
 .header_nav-link {
     color: white;
-    font-weight: 600;
+    font-weight: bold;
+
 }
 
 .header_nav-link__bucket {
@@ -120,30 +121,20 @@ body::-webkit-scrollbar {
     font-size: 28px;
     line-height: 32px;
     color: #dd1720;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-family: "Segoe Script"
 }
 
 .shops_list {
+    margin-left: 20px;
     list-style-image: url("./assets/candy-svgrepo-com.svg");
 }
 
-/*.shops_list > li {*/
-/*    list-style: none;*/
-/*    line-height: 1.1;*/
-/*    font-size: 18px;*/
-/*}*/
-
-/*.shops_list > li::before {*/
-/*    content: '';*/
-/*    display: inline-block;*/
-/*    height: 10px;*/
-/*    width: 10px;*/
-/*    background-size: contain;*/
-/*    margin-right: 5px;*/
-/*    background-image: url("./assets/candy-svgrepo-com.svg");*/
-/*}*/
+.shops_list > li {
+    line-height: 1.1;
+    font-size: 18px;
+}
 
 .news {
     width: 300px;
@@ -152,6 +143,10 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
 }
 
 .news_item {
@@ -160,15 +155,46 @@ body::-webkit-scrollbar {
 
 .news_item > img {
     max-width: 100%;
+}
+
+.city-birthday {
+    text-transform: uppercase;
+    font-family: "Bookman Old Style"
+}
+
+.city-birthday > img {
     margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.quote {
+    border: 1px solid #795a54;
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 4px;
+    background-color: #795a54;
+}
+
+.quote > h4 {
+    text-decoration: underline;
+    margin-bottom: 4px;
+    font-family: "Segoe Script";
+    color: white;
+}
+
+.quote > q {
+    font-family: "Bookman Old Style";
+    color: white;
 }
 
 .footer {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer_contact {
-
+    margin: 4px;
 }
 
 .socials__logo {
