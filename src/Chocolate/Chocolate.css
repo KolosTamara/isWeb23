@@ -1,0 +1,54 @@
+.chocolate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chocolate_item {
+    margin-bottom: 30px;
+}
+
+.chocolate_name {
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.chocolate_price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bookman Old Style";
+}
+
+.chocolate_item > img{
+    height: 500px;
+}
+
+.chocolate_buyButton{
+    background-color: white;
+    color: #dd1720;
+    border: 1px solid var(--primary);
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 6px darkred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chocolate_buyButton:hover{
+    background-color: #dd1720;
+    color: white;
+}
+
+.chocolate_buyButton:active {
+    background-color: #dd1720;
+    box-shadow: 0 5px firebrick;
+    transform: translateY(4px);
+}
