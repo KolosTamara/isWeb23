@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
 .header_nav-link__bucket {
 }
 
-.adv-container {
+.content-container {
     display: flex;
     justify-content: space-between;
 }
