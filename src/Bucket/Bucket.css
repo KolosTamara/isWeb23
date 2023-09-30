@@ -1,33 +1,29 @@
-.chocolate {
+
+.bucket_page {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.bucket_content {
+    padding: 20px;
+    display: flex;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
-.chocolate_item {
-    margin-bottom: 30px;
+
+.bucket_title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #dd1720;
+    margin-bottom: 12px;
+    font-family: "Segoe Script", serif
 }
 
-.chocolate_name {
-    font-family: "Bookman Old Style";
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.chocolate_price{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "Bookman Old Style";
-}
-
-.chocolate_item > img{
-    height: 500px;
-}
-
-.chocolate_buyButton{
+.bucket_buyButton {
     cursor: pointer;
     background-color: white;
     color: #dd1720;
@@ -43,13 +39,18 @@
     margin-bottom: 10px;
 }
 
-.chocolate_buyButton:hover{
+.bucket_buyButton:hover {
     background-color: #dd1720;
     color: white;
 }
 
-.chocolate_buyButton:active {
+.bucket_buyButton:active {
     background-color: #dd1720;
     box-shadow: 0 5px firebrick;
     transform: translateY(4px);
+}
+
+pre {
+    color: deeppink;
+    margin-left: 10px;
 }

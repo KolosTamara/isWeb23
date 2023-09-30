@@ -14,6 +14,7 @@ url('./fonts/Stick-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 body {
     background-color: white;
     scrollbar-width: none;
+    min-height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -96,7 +97,7 @@ body::-webkit-scrollbar {
     line-height: 32px;
     color: #dd1720;
     margin-bottom: 12px;
-    font-family: "Segoe Script"
+    font-family: "Segoe Script", serif
 }
 
 .gallery {

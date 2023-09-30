@@ -28,6 +28,7 @@
 }
 
 .cakes_buyButton{
+    cursor: pointer;
     background-color: white;
     color: #dd1720;
     border: 1px solid var(--primary);
