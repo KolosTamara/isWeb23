@@ -31,7 +31,8 @@
 }
 
 .chocolate_item > img{
-    height: 500px;
+    width: 50vw;
+    max-width: 500px;
 }
 
 .chocolate_buyButton{
