@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="Chocolate.css">
     <title>Шоколад Спартак</title>
+    <script src="../scripts/timeLoad.js"></script>
+    <script src="../scripts/menuActive.js"></script>
 </head>
 <header class="header">
     <div class="header_title-container">
@@ -19,80 +22,85 @@
         <a class="header_nav-link header_nav-link__bucket" href="../Bucket/Bucket.html">Корзина</a>
     </nav>
 </header>
+
 <body>
-<div class="chocolate_container">
-    <div class="chocolate">
-        <section class="chocolate_item">
-            <h2 class="chocolate_name">Шоколад Алёнка</h2>
-            <img src="../assets/SHokolad_Alenka_90_g.png" alt="Фото шоколада Алёнка">
-            <p class="chocolate_price"> Цена: 2 бел. руб.</p>
-            <button class="chocolate_buyButton">Купить</button>
-        </section>
-        <section class="chocolate_item">
-            <h2 class="chocolate_name">Шоколад Спартак</h2>
-            <img src="../assets/Molochnyy_90g..png" alt="Фото шоколоада Спартак">
-            <p class="chocolate_price"> Цена: 1 бел. руб.</p>
-            <button class="chocolate_buyButton">Купить</button>
-        </section>
-        <section class="chocolate_item">
-            <h2 class="chocolate_name">Шоколад Za Пористый</h2>
-            <img src="../assets/Poristyy_shokolad_55_.png" alt="Фото шоколада Пористого">
-            <p class="chocolate_price"> Цена: 2.5 бел. руб.</p>
-            <button class="chocolate_buyButton">Купить</button>
-        </section>
-        <section>
-            <h2 class="nutrition_title">Пищевая ценность</h2>
-            <table class="nutrition">
-                <thead>
-                <tr class="nutrition_header">
-                    <th>Название</th>
-                    <th>Веc, г</th>
-                    <th>Энергетическая ценность, ккал</th>
-                    <th>Белки, г</th>
-                    <th>Жиры, г</th>
-                    <th>Углеводы, г</th>
-                    <th>Срок годности, мес</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr class="nutrition_row">
-                    <td><span>Название</span>Шоколад Алёнка</td>
-                    <td><span>Вес, г</span>85</td>
-                    <td><span>Энергетическая ценность, ккал</span>550</td>
-                    <td><span>Белки, г</span>7</td>
-                    <td><span>Жиры, г</span>36</td>
-                    <td><span>Углеводы, г</span>52</td>
-                    <td><span>Срок годности, мес</span>12</td>
-                </tr>
-                <tr class="nutrition_row">
-                    <td><span>Название</span>Шоколад Спартак</td>
-                    <td><span>Вес, г</span>85</td>
-                    <td><span>Энергетическая ценность, ккал</span>550</td>
-                    <td><span>Белки, г</span>8</td>
-                    <td><span>Жиры, г</span>36</td>
-                    <td><span>Углеводы, г</span>48</td>
-                    <td><span>Срок годности, мес</span>12</td>
-                </tr>
-                <tr class="nutrition_row">
-                    <td><span>Название</span>Шоколад Za Пористый</td>
-                    <td><span>Вес, г</span>70</td>
-                    <td><span>Энергетическая ценность, ккал</span>550</td>
-                    <td><span>Белки, г</span>9.5</td>
-                    <td><span>Жиры, г</span>36</td>
-                    <td><span>Углеводы, г</span>42</td>
-                    <td><span>Срок годности, мес</span>12</td>
-                </tr>
-                </tbody>
-            </table>
-        </section>
+    <div class="chocolate_container">
+        <div class="chocolate">
+            <section class="chocolate_item">
+                <h2 class="chocolate_name">Шоколад Алёнка</h2>
+                <img src="../assets/SHokolad_Alenka_90_g.png" alt="Фото шоколада Алёнка">
+                <p class="chocolate_price"> Цена: 2 бел. руб.</p>
+                <button class="chocolate_buyButton">Купить</button>
+            </section>
+            <section class="chocolate_item">
+                <h2 class="chocolate_name">Шоколад Спартак</h2>
+                <img src="../assets/Molochnyy_90g..png" alt="Фото шоколоада Спартак">
+                <p class="chocolate_price"> Цена: 1 бел. руб.</p>
+                <button class="chocolate_buyButton">Купить</button>
+            </section>
+            <section class="chocolate_item">
+                <h2 class="chocolate_name">Шоколад Za Пористый</h2>
+                <img src="../assets/Poristyy_shokolad_55_.png" alt="Фото шоколада Пористого">
+                <p class="chocolate_price"> Цена: 2.5 бел. руб.</p>
+                <button class="chocolate_buyButton">Купить</button>
+            </section>
+            <section>
+                <h2 class="nutrition_title">Пищевая ценность</h2>
+                <table class="nutrition">
+                    <thead>
+                        <tr class="nutrition_header">
+                            <th>Название</th>
+                            <th>Веc, г</th>
+                            <th>Энергетическая ценность, ккал</th>
+                            <th>Белки, г</th>
+                            <th>Жиры, г</th>
+                            <th>Углеводы, г</th>
+                            <th>Срок годности, мес</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="nutrition_row">
+                            <td><span>Название</span>Шоколад Алёнка</td>
+                            <td><span>Вес, г</span>85</td>
+                            <td><span>Энергетическая ценность, ккал</span>550</td>
+                            <td><span>Белки, г</span>7</td>
+                            <td><span>Жиры, г</span>36</td>
+                            <td><span>Углеводы, г</span>52</td>
+                            <td><span>Срок годности, мес</span>12</td>
+                        </tr>
+                        <tr class="nutrition_row">
+                            <td><span>Название</span>Шоколад Спартак</td>
+                            <td><span>Вес, г</span>85</td>
+                            <td><span>Энергетическая ценность, ккал</span>550</td>
+                            <td><span>Белки, г</span>8</td>
+                            <td><span>Жиры, г</span>36</td>
+                            <td><span>Углеводы, г</span>48</td>
+                            <td><span>Срок годности, мес</span>12</td>
+                        </tr>
+                        <tr class="nutrition_row">
+                            <td><span>Название</span>Шоколад Za Пористый</td>
+                            <td><span>Вес, г</span>70</td>
+                            <td><span>Энергетическая ценность, ккал</span>550</td>
+                            <td><span>Белки, г</span>9.5</td>
+                            <td><span>Жиры, г</span>36</td>
+                            <td><span>Углеводы, г</span>42</td>
+                            <td><span>Срок годности, мес</span>12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
     </div>
-</div>
 </body>
 <footer class="footer">
+    <p class="load-time">
+        Время загрузки страницы: <span class="load-time_measure"></span> ms
+    </p>
     <address class="footer_contact">
         <a href="https://t.me/alexei_savvateev"> <img class="socials__logo" src="../assets/Telegram_logo.svg"
-                                                      alt="Ссылка на телеграм"></a>
+                alt="Ссылка на телеграм"></a>
     </address>
     <p><small>© copyright 2023 Best Corp.</small></p>
 </footer>
+
 </html>
