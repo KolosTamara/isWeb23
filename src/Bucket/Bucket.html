@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="Bucket.css">
     <title>Корзина покупок</title>
+    <script src="../scripts/timeLoad.js"></script>
+    <script src="../scripts/menuActive.js"></script>
 </head>
+
 <body class="bucket_page">
-<div>
-<header class="header">
-    <div class="header_title-container">
-        <a href="../index.html"><img class="header_logo" src="../assets/logo.png" alt="Логотип компании"> </a>
-        <h1 class="header_title">Кондитерская фабрика Спартак</h1>
+    <div>
+        <header class="header">
+            <div class="header_title-container">
+                <a href="../index.html"><img class="header_logo" src="../assets/logo.png" alt="Логотип компании"> </a>
+                <h1 class="header_title">Кондитерская фабрика Спартак</h1>
+            </div>
+            <nav class="header_nav">
+                <ul class="header_navigation-list">
+                    <li><a class="header_nav-link" href="../Cake/Cake.html">Торты</a></li>
+                    <li><a class="header_nav-link" href="../Chocolate/Chocolate.html">Шоколад</a></li>
+                </ul>
+                <a class="header_nav-link header_nav-link__bucket" href="../Bucket/Bucket.html">Корзина</a>
+            </nav>
+        </header>
+        <main class="bucket_content">
+            <h2 class="bucket_title">Корзина покупок</h2>
+            <button class="bucket_buyButton">Оформить заказ</button>
+        </main>
     </div>
-    <nav class="header_nav">
-        <ul class="header_navigation-list">
-            <li><a class="header_nav-link" href="../Cake/Cake.html">Торты</a></li>
-            <li><a class="header_nav-link" href="../Chocolate/Chocolate.html">Шоколад</a></li>
-        </ul>
-        <a class="header_nav-link header_nav-link__bucket" href="../Bucket/Bucket.html">Корзина</a>
-    </nav>
-</header>
-<main class="bucket_content">
-    <h2 class="bucket_title">Корзина покупок</h2>
-    <button class="bucket_buyButton">Оформить заказ</button>
-</main>
-</div>
-<footer class="footer">
-    <address class="footer_contact">
-        <a href="https://t.me/alexei_savvateev"> <img class="socials__logo" src="../assets/Telegram_logo.svg"
-                                                      alt="Ссылка на телеграм"></a>
-    </address>
-    <p><small>© copyright 2023 Best Corp.</small></p>
-</footer>
+    <footer class="footer">
+        <p class="load-time">
+            Время загрузки страницы: <span class="load-time_measure"></span> ms
+        </p>
+        <address class="footer_contact">
+            <a href="https://t.me/alexei_savvateev"> <img class="socials__logo" src="../assets/Telegram_logo.svg"
+                    alt="Ссылка на телеграм"></a>
+        </address>
+        <p><small>© copyright 2023 Best Corp.</small></p>
+    </footer>
 </body>
+
 </html>

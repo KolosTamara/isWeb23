@@ -3,7 +3,8 @@
 
 @font-face {
     font-family: 'Stick';
-url('./fonts/Stick-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/Stick-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
 }
 
 :root {
@@ -46,9 +47,7 @@ body::-webkit-scrollbar {
     font-style: italic;
 }
 
-.header_logo {
-
-}
+.header_logo {}
 
 .header_nav {
     display: flex;
@@ -64,14 +63,34 @@ body::-webkit-scrollbar {
     gap: 16px
 }
 
+
+.header_navigation-list>li {
+    display: block;
+}
+
 .header_nav-link {
     color: white;
     font-weight: bold;
-
+    border: 6px ridge transparent;
+    padding: 2px 4px;
 }
 
-.header_nav-link__bucket {
+.header_nav-link:hover {
+    color: #e5ea84;
+    background-color: white;
+    border-left: 6px ridge rgba(208, 222, 9, 0.6);
+    border-radius: 2px;
+    padding: 2px 4px;
 }
+
+.header_nav-link__active {
+    color: yellowgreen;
+    background-color: white;
+    border: 6px ridge rgba(208, 222, 9, 0.6);
+    border-radius: 2px;
+}
+
+.header_nav-link__bucket {}
 
 .content-container {
     display: flex;
@@ -79,15 +98,14 @@ body::-webkit-scrollbar {
     justify-content: space-between;
 }
 
-.content{
+.content {
     flex-grow: 1;
     padding: 20px;
 }
 
-.history {
-}
+.history {}
 
-.history > p {
+.history>p {
     line-height: 1.1;
     font-size: 18px;
 }
@@ -110,14 +128,12 @@ body::-webkit-scrollbar {
     gap: 20px
 }
 
-.gallery > img {
+.gallery>img {
     height: 250px;
     box-shadow: 10px 5px 5px var(--primary);
 }
 
-.shops {
-
-}
+.shops {}
 
 .shops_header {
     font-weight: bold;
@@ -134,7 +150,7 @@ body::-webkit-scrollbar {
     list-style-image: url("./assets/candy-svgrepo-com.svg");
 }
 
-.shops_list > li {
+.shops_list>li {
     line-height: 1.1;
     font-size: 18px;
 }
@@ -162,7 +178,7 @@ body::-webkit-scrollbar {
     padding: 8px;
 }
 
-.news_item > img {
+.news_item>img {
     max-width: 100%;
 }
 
@@ -171,7 +187,7 @@ body::-webkit-scrollbar {
     font-family: "Bookman Old Style"
 }
 
-.city-birthday > img {
+.city-birthday>img {
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -184,14 +200,14 @@ body::-webkit-scrollbar {
     background-color: #795a54;
 }
 
-.quote > h4 {
+.quote>h4 {
     text-decoration: underline;
     margin-bottom: 4px;
     font-family: "Segoe Script";
     color: white;
 }
 
-.quote > q {
+.quote>q {
     font-family: "Bookman Old Style";
     color: white;
 }
@@ -200,6 +216,11 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer>p {
+    font-style: italic;
+    padding: 2px;
 }
 
 .footer_contact {
