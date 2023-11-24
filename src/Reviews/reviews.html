@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="./reviews.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
-  <title>Админка</title>
-  <script src="../scripts/addNews.js"></script>
+  <title>Отзывы</title>
+  <script src="../scripts/reviews.js"></script>
+  <script src="../scripts/menuActive.js"></script>
 </head>
 
 <body>
@@ -29,36 +31,18 @@
   </header>
   <div class="content-container">
     <main class="content">
-      <form name="addNewsForm">
-        <label>Название продукта:
-          <input required type="text" name="name">
-        </label>
+      <div class="loader-container">
+        <img src="../assets/loading-wtf.gif" class="loader">
+        <img src="../assets/backend-error-tarkov.gif" class="error error__hidden">
+      </div>
 
-        <label>Тип продукта:
-          <select required name="type">
-            <option>Торт</option>
-            <option>Шоколад</option>
-          </select>
-        </label>
-
-        <label>Количество продукта:
-          <input required type="number" name="amount">
-        </label>
-
-
-        <button type="submit">Отправить</button>
-      </form>
-      <div>
-        Склад:
-        <div class="storage">
-          <template id="storageRowTemplate">
-            <div>
-              <div class="storage_name"></div>
-              <div class="storage_type"></div>
-              <div class="storage_amount"></div>
-            </div>
-          </template>
-        </div>
+      <div class="reviews_container">
+        <template id="reviewTemplate">
+          <div class="review">
+            <div class="review_title"></div>
+            <div class="review_body"></div>
+          </div>
+        </template>
       </div>
     </main>
     <aside class="news">
