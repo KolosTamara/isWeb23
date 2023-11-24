@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="./dashboard.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+  <title>Панель управления</title>
+  <script src="../scripts/addProduct.js"></script>
+  <script src="../scripts/menuActive.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_title-container">
+      <a href="index.html"><img class="header_logo" src="../assets/logo.png" alt="Логотип компании"> </a>
+      <h1 class="header_title">Кондитерская фабрика Спартак</h1>
+    </div>
+    <nav class="header_nav">
+      <ul class="header_navigation-list">
+        <li><a class="header_nav-link" href="../Cake/Cake.html">Торты</a></li>
+        <li><a class="header_nav-link" href="../Chocolate/Chocolate.html">Шоколад</a></li>
+        <li><a class="header_nav-link" href="../Reviews/reviews.html">Отзывы</a></li>
+        <li><a class="header_nav-link" href="../Dashboard/dashboard.html">Панель управления</a></li>
+      </ul>
+      <a class="header_nav-link header_nav-link__bucket" href="../Bucket/Bucket.html">Корзина</a>
+    </nav>
+  </header>
+  <div class="content-container">
+    <main class="content">
+      <form name="addProduct" class="addProduct_form">
+        <label>Название продукта:
+          <input required type="text" name="name">
+        </label>
+
+        <label>Тип продукта:
+          <select required name="type">
+            <option>Торт</option>
+            <option>Шоколад</option>
+          </select>
+        </label>
+
+        <label>Количество продукта:
+          <input required type="number" name="amount">
+        </label>
+
+        <button type="submit" class="submit_button">Отправить</button>
+      </form>
+      <div>
+        <h2 class="storage_title">Склад:</h2>
+        <table class="storage_container">
+          <thead>
+            <tr class="storage_header">
+              <th>Имя</th>
+              <th>Тип</th>
+              <th>Количество</th>
+            </tr>
+          </thead>
+          <tbody class="storage">
+            <template id="storageRowTemplate">
+              <tr class="storage_row">
+                <td class="storage_name"></td>
+                <td class="storage_type"></td>
+                <td class="storage_amount"></td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <aside class="news">
+      <article class="news_item city-birthday">
+        <p>С днем города Гомеля!</p>
+        <img src="../assets/i.webp">
+      </article>
+      <article class="news_item ">
+        <div class="quote">
+          <h4>Цитата дня:</h4>
+          <q>У меня сейчас все в шоколаде, просто на данный момент он горький!!</q>
+        </div>
+        <img src="../assets/кот-обнимая-бар-шоколада.webp">
+      </article>
+    </aside>
+  </div>
+  <footer class="footer">
+    <address class="footer_contact">
+      <a href="https://t.me/alexei_savvateev"> <img class="socials__logo" src="../assets/Telegram_logo.svg"
+          alt="Ссылка на телеграм"></a>
+    </address>
+    <p><small>© copyright 2023 Best Corp.</small></p>
+  </footer>
+</body>
+
+</html>
