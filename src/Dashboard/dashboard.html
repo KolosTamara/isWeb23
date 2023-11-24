@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="./dashboard.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
-  <title>Админка</title>
-  <script src="../scripts/addNews.js"></script>
+  <title>Панель управления</title>
+  <script src="../scripts/addProduct.js"></script>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
   </header>
   <div class="content-container">
     <main class="content">
-      <form name="addNewsForm">
+      <form name="addProduct" class="addProduct_form">
         <label>Название продукта:
           <input required type="text" name="name">
         </label>
@@ -45,20 +46,28 @@
           <input required type="number" name="amount">
         </label>
 
-
-        <button type="submit">Отправить</button>
+        <button type="submit" class="submit_button">Отправить</button>
       </form>
       <div>
-        Склад:
-        <div class="storage">
-          <template id="storageRowTemplate">
-            <div>
-              <div class="storage_name"></div>
-              <div class="storage_type"></div>
-              <div class="storage_amount"></div>
-            </div>
-          </template>
-        </div>
+        <h2 class="storage_title">Склад:</h2>
+        <table class="storage_container">
+          <thead>
+            <tr class="storage_header">
+              <th>Имя</th>
+              <th>Тип</th>
+              <th>Количество</th>
+            </tr>
+          </thead>
+          <tbody class="storage">
+            <template id="storageRowTemplate">
+              <tr class="storage_row">
+                <td class="storage_name"></td>
+                <td class="storage_type"></td>
+                <td class="storage_amount"></td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
       </div>
     </main>
     <aside class="news">
