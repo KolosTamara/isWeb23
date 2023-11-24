@@ -35,7 +35,7 @@
     } catch (e) {
       hideLoader()
       const alert = document.getElementsByClassName("error")[0];
-      alert.classList.remove("error_hidden")
+      alert.classList.remove("error__hidden")
       console.log(e)
     }
   })
